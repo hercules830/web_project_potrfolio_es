@@ -1,0 +1,28 @@
+.header__container {
+  display: flex;
+  margin: 40px 120px 100px;
+  gap: 20px;
+}
+
+.header__name {
+  margin: 49px 0 15px;
+}
+
+.header__level {
+  margin-bottom: 30px;
+}
+
+.header__description {
+  margin-bottom: 30px;
+}
+
+.header__links {
+  display: flex;
+  gap: 30px;
+}
+
+.header__image {
+  width: 387px;
+  height: 500px;
+  object-fit: cover;
+}
