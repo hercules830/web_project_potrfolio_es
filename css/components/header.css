@@ -6,23 +6,62 @@
 
 .header__name {
   margin: 49px 0 15px;
+  font-family: "Archivo Black";
+  font-size: 72px;
+  line-height: auto;
 }
 
 .header__level {
   margin-bottom: 30px;
+  font-family: "Open Sans Regular";
+  color: #fff;
+  opacity: 0.5;
 }
 
 .header__description {
   margin-bottom: 30px;
+  font-family: "Open Sans Regular";
+  font-size: 18px;
 }
 
 .header__links {
   display: flex;
   gap: 30px;
+  font-family: "Open Sans SemiBold";
+  font-size: 18px;
+}
+
+.header__link {
+  position: relative;
+}
+
+.header__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to right, #691212 0%, #ff003c 100%);
 }
 
 .header__image {
   width: 387px;
   height: 500px;
   object-fit: cover;
+}
+
+.header__perfil {
+  position: relative;
+}
+
+.header__ellipse {
+  position: absolute;
+  background-color: #ff003c;
+  width: 300px;
+  height: 300px;
+  top: 200px;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
 }
