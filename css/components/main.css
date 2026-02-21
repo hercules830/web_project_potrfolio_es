@@ -1,0 +1,106 @@
+.main__container {
+  margin: 0 120px 100px;
+}
+
+.main__h2 {
+  font-family: "Archivo Black";
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.main__habilities {
+  margin-bottom: 100px;
+}
+
+.main__ul {
+  display: flex;
+  justify-content: space-between; /*Me parece mejor esta opcion que el gap porque es más responsivo, desde los 1440 hasta encogerlo a 1000 me parece*/
+  /* gap: 180px; */
+}
+
+.main__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.main__card {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main__image {
+  position: relative;
+}
+
+.main__image--project {
+  width: 100%;
+}
+
+.main__image--html,
+.main__image--css,
+.main__image--js,
+.main__image--react {
+  position: absolute;
+  bottom: 10px;
+}
+
+.main__image--html {
+  left: 12px;
+}
+
+.main__image--css {
+  left: 62px;
+}
+
+.main__image--js {
+  left: 10px;
+}
+
+.main__image--react {
+  left: 60px;
+}
+
+.main__h3 {
+  font-family: "Open Sans Bold";
+  font-size: 24px;
+  padding: 30px 0 20px 30px;
+}
+
+.main__paragraph {
+  font-family: "Open Sans Regular";
+  font-size: 18px;
+  padding: 0 30px 30px 30px;
+}
+
+.main__links--container {
+  margin-top: auto;
+  position: static;
+  width: 100%;
+}
+
+.main__links {
+  display: flex;
+  font-size: 16px;
+  font-family: "Open Sans Regular";
+  gap: 20px;
+  padding: 0 30px 30px 30px;
+}
+
+.main__link--union,
+.main__link--github {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main__link--union {
+  color: #6d6dff;
+}
+
+.main__link--github {
+  color: #fff;
+  opacity: 60%;
+}

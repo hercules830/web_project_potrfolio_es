@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title class="title">Mi Portafolio</title>
   </head>
   <body>
@@ -44,14 +44,137 @@
         </div>
 
         <!-- FOTO DE PERFIL y ELIPSE-->
-        <div class="header__perfil">
-          <img src="./img/foto-perfil.jpg" alt="" class="header__image" />
+        <div class="header__porfile">
+          <img
+            src="./img/foto-perfil.jpg"
+            alt="Porfile's photo"
+            class="header__image"
+          />
           <div class="header__ellipse"></div>
         </div>
       </div>
     </header>
 
-    <main class="main"></main>
+    <main class="main">
+      <div class="main__container">
+        <h2 class="main__h2">Habilidades y herramientas</h2>
+
+        <div class="main__habilities">
+          <ul class="main__ul">
+            <li class="main__item">
+              <img src="./img/icons/icono-html.svg" alt="HTML Icon" />
+            </li>
+            <li class="main__item">
+              <img src="./img/icons/icono-css.svg" alt="CSS Icon" />
+            </li>
+            <li class="main__item">
+              <img src="./img/icons/icono-js.svg" alt="JS Icon" />
+            </li>
+            <li class="main__item">
+              <img src="./img/icons/icono-git.svg" alt="GIT Icon" />
+            </li>
+            <li class="main__item">
+              <img src="./img/icons/icono-github.svg" alt="GITHUB Icon" />
+            </li>
+            <li class="main__item">
+              <img src="./img/icons/icono-chatGPT.svg" alt="ChaTGPT Icon" />
+            </li>
+          </ul>
+        </div>
+
+        <section class="main__section">
+          <h2 class="main__h2">Proyectos destacados</h2>
+
+          <!-- CARDS -->
+          <div class="main__cards">
+            <!-- Card 1 -->
+            <div class="main__card">
+              <div class="main__image">
+                <img
+                  src="./img/proyecto-1.jpg"
+                  alt="Project 1"
+                  class="main__image--project"
+                />
+                <img
+                  src="./img/icons/frame-html.png"
+                  alt=""
+                  class="main__image--html"
+                />
+                <img
+                  src="./img/icons/frame-css.png"
+                  alt=""
+                  class="main__image--css"
+                />
+              </div>
+              <h3 class="main__h3">Página web de una cafetería</h3>
+              <p class="main__paragraph">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional.Logro: Implementé desde cero el
+                diseño completo de la página, organicé el proyecto con buenas
+                prácticas y publiqué la versión final utilizando GitHub Pages.
+              </p>
+
+              <div class="main__links--container">
+                <ul class="main__links">
+                  <li class="main__item">
+                    <a href="" class="main__link--union"
+                      ><img src="./img/icons/icon-union.svg" alt="" />Demo en
+                      vivo</a
+                    >
+                  </li>
+                  <li class="main__item">
+                    <a href="" class="main__link--github"
+                      ><img src="./img/icons/icon-github.svg" alt="" />GitHub</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="main__card">
+              <div class="main__image">
+                <img
+                  src="./img/proyecto-2.jpg"
+                  alt="Project 2"
+                  class="main__image--project"
+                />
+                <img
+                  src="./img/icons/frame-js.png"
+                  alt=""
+                  class="main__image--js"
+                />
+                <img
+                  src="./img/icons/frame-react.png"
+                  alt=""
+                  class="main__image--react"
+                />
+              </div>
+              <h3 class="main__h3">Mi proyecto</h3>
+              <p class="main__paragraph">Descripción del proyecto</p>
+
+              <div class="main__links--container">
+                <ul class="main__links">
+                  <li class="main__item">
+                    <a href="" class="main__link--union"
+                      ><img src="./img/icons/icon-union.svg" alt="" />Demo en
+                      vivo</a
+                    >
+                  </li>
+                  <li class="main__item">
+                    <a href="" class="main__link--github"
+                      ><img src="./img/icons/icon-github.svg" alt="" />GitHub</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
 
     <footer class="footer"></footer>
   </body>
