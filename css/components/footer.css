@@ -1,0 +1,43 @@
+.footer__container {
+  margin: 0 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.footer__container--contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer__h2 {
+  font-family: "Archivo Black";
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.footer__email {
+  font-family: "Open Sans Regular";
+  font-size: 18px;
+  color: #ff003c;
+}
+
+.footer__ul {
+  display: flex;
+  gap: 80px;
+}
+
+.footer__ellipse {
+  position: absolute;
+  top: -50px;
+  background-color: #ff003c;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+}
